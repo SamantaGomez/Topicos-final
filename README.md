@@ -68,8 +68,7 @@ Esta fracción de código representa el seteo de los datos en la BDD
 ## Video en Yotube :movie_camera:
  
 
-
-### Referencias ###
+### Referencias ### :bust_in_silhouette:
 - REGISTRO USUARIO
 https://www.youtube.com/watch?v=xwhEHb_AZ6k
 - LOGIN
