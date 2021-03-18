@@ -66,8 +66,9 @@ Esta fracción de código representa el seteo de los datos en la BDD
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/setearDatos.jfif)
 
 ## Video en Yotube :movie_camera:
+video explicativo:
  
-
+- https://www.youtube.com/watch?v=cuTK0sCH0RI
 ### Referencias ### :bust_in_silhouette:
 - REGISTRO USUARIO
 https://www.youtube.com/watch?v=xwhEHb_AZ6k
