@@ -47,6 +47,12 @@ La aplicación nos permitirá iniciar sesión como usuarios nuevos registrandono
 | **login** :speech_balloon: | **register** :bust_in_silhouette: | **usuario existente** :clapper:|**pantalla dietas** :scroll:|
 | ------------- | ------------- | ------------- | ------------- |
 |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/inicioSesion.jfif) |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/inicioHome.jfif)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/ingresoUsuarioExistente.jfif)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/registroAlimentos.jfif) |
+
+## APK y Certificación:
+| **APK** :black_nib: | **Certificados** :black_nib: |**Certificados** :black_nib:| **Certificados** :black_nib:|
+| ------------- | ------------- | ------------- |------------- |
+|![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/APK1.jfif) |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/certificado.jfif)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/certificado1.jfif)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/certificado2.jfif)  |
+
 ## Código:
 En la siguiente imagen se muestra el código usado para crear el login de la App
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Imagenes_ejercicios/blob/main/Captutas/codigoLoginUsuario.jfif) 
@@ -69,6 +75,7 @@ Esta fracción de código representa el seteo de los datos en la BDD
 video explicativo:
  
 - https://www.youtube.com/watch?v=cuTK0sCH0RI
+- 
 ### Referencias ### :bust_in_silhouette:
 - REGISTRO USUARIO
 https://www.youtube.com/watch?v=xwhEHb_AZ6k
