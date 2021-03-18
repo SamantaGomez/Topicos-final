@@ -75,7 +75,7 @@ Esta fracción de código representa el seteo de los datos en la BDD
 video explicativo:
  
 - https://www.youtube.com/watch?v=cuTK0sCH0RI
-- 
+- https://youtu.be/VI5kLhyalvY
 ### Referencias ### :bust_in_silhouette:
 - REGISTRO USUARIO
 https://www.youtube.com/watch?v=xwhEHb_AZ6k
