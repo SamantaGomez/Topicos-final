@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fruta"
+    android:orientation="vertical"
+    tools:context=".DietaActivity">
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGRESAR"
+        android:layout_marginTop="20dp" />
+
+    <ScrollView
+        android:id="@+id/scrollvertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_weight="1">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollhorizontal"
+            android:scrollbars="horizontal"
+            android:layout_weight="1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECETA #1"/>
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="@color/purple_200"
+                    android:stretchColumns="2">
+
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Desayuno:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="café con leche desnatada"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Almuerzo:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="Pollo a la plancha"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Merienda:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="pequeña guarnición de arroz integral"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECETA #2"/>
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="@color/purple_200"
+                    android:stretchColumns="2">
+
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Desayuno:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="café con leche desnatada"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Almuerzo:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="pechuga de pavo al papillot con tiras de pimiento"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Merienda:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="brocoli con papas cocinadas"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECETA #3"/>
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="@color/purple_200"
+                    android:stretchColumns="2">
+
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Desayuno:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="comibebe"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Almuerzo:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="Filete de res asado"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Merienda:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="pure de zanahoria blanca con salchichas"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECETA #4"/>
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="@color/purple_200"
+                    android:stretchColumns="2">
+
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Desayuno:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="yogur griego sin grasa y una tostada de pan integral"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Almuerzo:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="ensalada de tomate y lechuga, ortilla de patata"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Merienda:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="un bocadillo de pavo o jamón york"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECETA #5"/>
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="@color/purple_200"
+                    android:stretchColumns="2">
+
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Desayuno:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="vaso de leche semidesnatada con muesli"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Almuerzo:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="cuatro rollitos de calabacín, un plato de guisantes con daditos de jamón."
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Merienda:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="un yogur natural con semillas de chía y frutos del bosque."
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECETA #6"/>
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="@color/purple_200"
+                    android:stretchColumns="2">
+
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Desayuno:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="una taza de leche. Una macedonia con un plátano, cuatro fresas"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Almuerzo:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="un risotto de setas con una ración de merluza al papillote. También un kiwi."
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Merienda:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="un puñado de frutos secos y una barrita de cereales"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECETA #7"/>
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="@color/purple_200"
+                    android:stretchColumns="2">
+
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Desayuno:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="un bocadillo de pan integral con atún en aceite de girasol y un pepino en rodajas"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Almuerzo:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="brochetas de tomate cherry y queso fresco cortado en dados."
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Merienda:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="un yogur griego sin grasa y una barrita de cereales"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECETA #8"/>
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:background="@color/purple_200"
+                    android:stretchColumns="2">
+
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Desayuno:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="un bocadillo con pan integral y queso fresco y un vaso de leche semidesnatada"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Almuerzo:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="espárragos trigueros salteados con romero. Un guiso de patata con carne picada"
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                    <TableRow
+                        android:textAlignment="center">
+                        <TextView
+                            android:layout_column="1"
+                            android:text="Merienda:"
+                            android:textColor="@color/purple_700"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:text="os tostadas con pan integral, un aguacate y un chorrito de aceite de oliva."
+                            android:textColor="@color/purple_500"
+                            android:gravity="left"
+                            android:padding="3dip" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+</LinearLayout>
